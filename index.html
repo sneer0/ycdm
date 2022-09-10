@@ -1,21 +1,59 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
-</head>
-<body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-        name: '事件百科',
-            nameLink: '/',
-            loadSidebar: true,
-      //...
-    }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>嘲讽</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+        body, html{
+            width: 100%;
+            height: 100%;
+        }
+        .policy-wrapper {
+            text-align: center;
+    //页头留白用的padding-top:1.11rem;
+        }
+        .policy-wrapper h2 {
+            font-family: PingFangSC-Semibold;
+            font-size: .4rem;
+            color: rgba(0,0,0,0.80);
+            letter-spacing: 0;
+        }
+        .policy-wrapper p {
+            //正文行间距margin: .3rem 0;
+            padding: 0 .36rem;
+            font-family: PingFangSC-Regular;
+            font-size: .28rem;
+            color: rgba(0,0,0,0.70);
+            letter-spacing: 0;
+            text-align: left;
+            line-height: .44rem;
+        }
+        .policy-wrapper p span {
+            color: rgb(81,133,194);
+        }
+        .policy-wrapper .top-img {
+            width: 76.8%;
+        }
+        a:link {color: blue; text-decoration:none;} //未访问：蓝色、无下划线
+        </style>
+    </head>
+    <body>
+    <div class="policy-wrapper">
+        <h2>更新软件用的</h2>
+        <p style="text-indent:2em">没东西，别看了。</p >
+    </div>
+    <script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/ 7.5+ 'px';
+		window.addEventListener('resize',
+		    function() {  //添加监听，为了自适应
+		        document.documentElement.style.fontSize = document.documentElement.clientWidth/ 7.5+ 'px';
+		}, false);
+	</script>
 </body>
 </html>
