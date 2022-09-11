@@ -13,10 +13,6 @@ task(1200000,function()--延迟运行20分钟开始
   --弹出消息("听歌20分钟啦,支持下我们的淘宝店吧TAT")
   local txt="1dggw"--听歌1小时弹出广告
   io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
-  进入子页面("横竖屏")  
-  local txt="1sfyz"--身份验证开始♥
-  io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
-  进入子页面("横竖屏")--身份验证结束♥
 end)--延迟运行结束❷❷❷]]
 
 
