@@ -1,8 +1,8 @@
 --加载网页("http://334lizhi.top")
---加载网页("https://2019334.xyz")
+加载网页("https://2019334.xyz")
 --加载网页("https://lz.feifei.cf")
 --加载网页("http://334.run")  --旧https://334.kim
-加载网页("http://bbxxwl.com")
+--不让用了加载网页("http://bbxxwl.com")
 --加载网页("http://www.soulseeker.cn/?page_id=238")
 --加载网页("https://go.txca.ml/0:/lizhi/")
 --加载网页("https://www.lizhi334.com/334")--http://150.158.140.38:8080
