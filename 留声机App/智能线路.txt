@@ -1,7 +1,7 @@
 --加载网页("http://334lizhi.top")
 加载网页("https://2019334.xyz")
 --加载网页("https://lz.feifei.cf")
---加载网页("http://334.run")  --旧https://334.kim
+--加载网页("https://334.kim")  --旧http://334.run
 --加载网页("http://bbxxwl.com")
 --加载网页("http://www.soulseeker.cn/?page_id=238")
 --加载网页("https://go.txca.ml/0:/lizhi/")
