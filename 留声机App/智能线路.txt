@@ -3,9 +3,10 @@
 --加载网页("https://lz.feifei.cf")
 --加载网页("https://334.kim")  --旧http://334.run
 --加载网页("http://bbxxwl.com")
---加载网页("http://www.soulseeker.cn/?page_id=238")
 --加载网页("https://go.txca.ml/0:/lizhi/")
 --加载网页("https://www.lizhi334.com/334")--http://150.158.140.38:8080
+
+--不能当主页 加载网页("http://www.soulseeker.cn/?page_id=238")
 --挂了 加载网页("http://sls-mp3-static-1301308367.cos-website.ap-guangzhou.myqcloud.com")
 --挂了 加载网页("https://www.lizhinb.com/cd")
 
