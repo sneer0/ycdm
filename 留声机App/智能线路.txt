@@ -10,7 +10,7 @@
 --挂了 加载网页("http://sls-mp3-static-1301308367.cos-website.ap-guangzhou.myqcloud.com")
 --挂了 加载网页("https://www.lizhinb.com/cd")
 
-弹出消息("正在连接智能线路,请稍后...")
+弹出消息("智能线路连接中,请稍后...")
 
 --[[刷新开始
 task(5000,function()--延迟5秒
