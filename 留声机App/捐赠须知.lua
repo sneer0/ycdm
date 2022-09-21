@@ -1,4 +1,4 @@
-进入子页面("调用",{标题="捐赠APP",链接="https://support.qq.com/embed/phone/191061/blog/505761"})
+加载网页("https://support.qq.com/embed/phone/191061/blog/505761")
 
 对话框()
   .设置标题("捐赠须知(不看后果自负)")
