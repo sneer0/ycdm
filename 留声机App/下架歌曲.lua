@@ -399,6 +399,38 @@ list.Adapter=adapter
 list.onItemClick=function(adp,view,pos,id)
   ({
 
+    function()--●第三方搜索●
+      items={}--第三方搜索开始♦♦♦♦
+      table.insert(items,"投稿下架歌曲")
+      table.insert(items,"第三方搜索❶")
+      table.insert(items,"第三方搜索❷")
+      AlertDialog.Builder(this)
+      --.setTitle("空白标题")--标题♥
+      .setItems(items,{onClick=function(l,v) 
+          if items[v+1]=="投稿下架歌曲" then
+            对话框()
+            .设置标题("投稿下架歌曲")
+            .设置消息("【加群传】加入投稿QQ群，直接发送歌曲文件到群内，大批量文件建议用压缩包。\n\n【在线传】在APP内上传音乐到云端，一次只能上传一个文件，如果投稿歌曲较多，可以把歌曲打包成压缩文件上传。")
+            .设置积极按钮("加群投稿",function()
+              加QQ群(207900539) 
+            end)
+            .设置中立按钮("在线投稿",function()
+              进入子页面("调用",{标题="投稿歌曲",链接="https://inbox.weiyun.com/tDAtbdZz"})
+              复制文本("https://inbox.weiyun.com/tDAtbdZz")
+              弹出消息("投稿链接已复制到剪切板")
+            end)
+            .显示()
+          end
+          if items[v+1]=="第三方搜索❶" then
+            进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search"})
+          end
+          if items[v+1]=="第三方搜索❷" then
+            进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro/search"})
+          end
+        end})
+      .show()--第三方搜索结束♦♦♦♦
+    end,--结束●第三方搜索●
+
     function()--●1●
       进入子页面("调用",{标题="01《未分类》",链接="https://sneer.lanzoui.com/b06t7ouvi"}) 
     end,--结束●1●
