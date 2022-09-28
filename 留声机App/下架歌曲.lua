@@ -425,7 +425,7 @@ list.onItemClick=function(adp,view,pos,id)
             进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search"})
           end
           if items[v+1]=="第三方搜索❷" then
-            进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro/search"})
+            进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro"})
           end
         end})
       .show()--第三方搜索结束♦♦♦♦
