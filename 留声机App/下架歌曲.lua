@@ -400,43 +400,43 @@ list.onItemClick=function(adp,view,pos,id)
   ({
 
     function()--●1●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490921.htm"})
+      进入子页面("调用",{标题="01《未分类》",链接="https://sneer.lanzoui.com/b06t7ouvi"}) 
     end,--结束●1●
 
     function()--●2●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490930.htm"})
+      进入子页面("调用",{标题="02《崔健》",链接="https://sneer.lanzoui.com/b06t7n6vi"})
     end,--结束●2●
 
     function()--●3●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490930b.htm"})
+      进入子页面("调用",{标题="03《刘森》",链接="https://sneer.lanzoui.com/b06t7n80j"})
     end,--结束●3●
 
     function()--●4●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19491026.htm"})
+      进入子页面("调用",{标题="04《老狼》",链接="https://sneer.lanzoui.com/b06t7qtha"})
     end,--结束●4●
 
     function()--●5●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19500312.htm"})
+      进入子页面("调用",{标题="05《伍佰》",链接="https://sneer.lanzoui.com/b06t7qtle"})
     end,--结束●5●
 
     function()--●6●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19500606.htm"})
+      进入子页面("调用",{标题="06《红色摇滚》",链接="https://sneer.lanzoui.com/b06t7qtud"})
     end,--结束●6●
 
     function()--●7●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19500606b.htm"})
+      进入子页面("调用",{标题="07《万能青年旅店》",链接="https://sneer.lanzoui.com/b06t7qtzi"})
     end,--结束●7●
 
     function()--●8●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19500623.htm"})
+      进入子页面("调用",{标题="08《现代人乐队》",链接="https://sneer.lanzoui.com/b06t7vanc"})     
     end,--结束●8●
 
     function()--●9●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19500925.htm"})
+      进入子页面("调用",{标题="09《花粥》",链接="https://sneer.lanzoui.com/b06t7vdna"})
     end,--结束●9●
 
     function()--●10●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19501008.htm"})
+      进入子页面("调用",{标题="10《GALA》",链接="https://sneer.lanzoui.com/b06t7ve6j"})
     end,--结束●10●
 
     function()--●11●
