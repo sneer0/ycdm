@@ -1,4 +1,3 @@
---五卷目录♥♥♥♥♥♥
 require"import"
 import "android.widget.*"
 import "android.view.*"
@@ -33,7 +32,7 @@ jdpuk={
       backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),--JDPUK
       layout_width="fill",
       layout_height="60dp",
-      titleText="毛选第五卷",--♥♥♥
+      titleText="下架歌曲",--♥♥♥
       --subTitle="32552732",
       returnButtonEnabled=true,
       elevation="-480dp",--未找到改变效果
@@ -93,54 +92,55 @@ jdpuk={
 activity.setContentView(loadlayout(jdpuk))
 
 adpd={
-  {
+  
+    {
     text={
-      text="0.出版说明",--●0●
+      text="第三方搜索及投稿",--●1●
     },
   },
   {
     text={
-      text="1.中国人民站起来了",--●1●
+      text="01《未分类歌曲》",--●1●
     },
   },
   {
     text={
-      text="2.中国人民大团结万岁",--●2●
+      text="02《崔健》 ",--●2●
     },
   },
   {
     text={
-      text="3.人民英雄们永垂不朽",--●3●
+      text="03《刘森》 ",--●3●
     },
   },
   {
     text={
-      text="4.永远保持艰苦奋斗的作风",--●4●
+      text="04.永远保持艰苦奋斗的作风",--●4●
     },
   },
   {
     text={
-      text="5.征询对待富农策略问题的意见",--●5●
+      text="05.征询对待富农策略问题的意见",--●5●
     },
   },
   {
     text={
-      text="6.为争取国家财政经济状况的基本好转而斗争",--●6●
+      text="06.为争取国家财政经济状况的基本好转而斗争",--●6●
     },
   },
   {
     text={
-      text="7.不要四面出击",--●7●
+      text="07.不要四面出击",--●7●
     },
   },
   {
     text={
-      text="8.做一个完全的革命派",--●8●
+      text="08.做一个完全的革命派",--●8●
     },
   },
   {
     text={
-      text="9.你们是全民族的模范人物",--●9●
+      text="09.你们是全民族的模范人物",--●9●
     },
   },
   {
@@ -487,9 +487,6 @@ adapter=LuaAdapter(this,adpd,items)
 list.Adapter=adapter
 list.onItemClick=function(adp,view,pos,id)
   ({
-    function()--●0●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-vol5.htm"})
-    end,--结束●0●
 
     function()--●1●
       进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490921.htm"})
