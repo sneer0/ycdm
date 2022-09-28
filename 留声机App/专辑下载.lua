@@ -1,4 +1,3 @@
---程序启动时会执行的事件
 require"import"
 import "android.widget.*"
 import "android.view.*"
