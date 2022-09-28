@@ -93,6 +93,11 @@ activity.setContentView(loadlayout(jdpuk))
 
 adpd={
 
+    {
+    text={
+      text="🔍搜索李志全部歌曲",--●1●
+    },
+  },
   {
     text={
       text="☁️直接帮你传到网易音乐云盘",--●1●
