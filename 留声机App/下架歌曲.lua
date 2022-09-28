@@ -432,7 +432,7 @@ list.onItemClick=function(adp,view,pos,id)
           end
           if items[v+1]=="第三方搜索❸" then
             进入子页面("调用",{标题="free mp3",链接="https://myfreemp3juices.cc"})
-            弹出消息("该网站有时会自动跳转到垃圾广告页面 点返回就能搜索")
+            弹出消息("此服务由第三方网站提供，该网站有时会自动跳转到垃圾广告页面，若遇到这种情况，点击返回即可。请勿相信广告，否则一切损失后果自负！")
           end
         end})
       .show()--第三方搜索结束♦♦♦♦
