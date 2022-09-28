@@ -305,154 +305,65 @@ adpd={
   },
   {
     text={
-      text="42.驳“舆论一律”",--●42●
+      text="42《张震岳》",--●42●
     },
   },
   {
     text={
-      text="43.《关于胡风反革命集团的材料》的序言和按语",--●43●
+      text="43《my little airport小飞机场》",--●43●
     },
   },
   {
     text={
-      text="44.关于农业合作化问题",--●44●
+      text="44《李荣浩》",--●44●
     },
   },
   {
     text={
-      text="45.农业合作化必须依靠党团员和贫农下中农",--●45●
+      text="45《任贤齐》",--●45●
     },
   },
   {
     text={
-      text="46.农业合作化的一场辩论和当前的阶级斗争",--●46●
+      text="46《王菲》",--●46●
     },
   },
   {
     text={
-      text="47.《中国农村的社会主义高潮》的序言",--●47●
+      text="47《苏打绿》",--●47●
     },
   },
   {
     text={
-      text="48.《中国农村的社会主义高潮》的按语",--●48●
+      text="48《国际歌》",--●48●
     },
   },
   {
     text={
-      text="49.征询对农业十七条的意见",--●49●
+      text="49《野外合作社》",--●49●
     },
   },
   {
     text={
-      text="50.加快手工业的社会主义改造",--●50●
+      text="50《爱国歌曲》",--●50●
     },
   },
   {
     text={
-      text="51.论十大关系",--●51●
+      text="51《仙剑奇侠传三》",--●51●
     },
   },
   {
     text={
-      text="52.美帝国主义是纸老虎",--●52●
+      text="52《草东没有派对》",--●52●
     },
   },
   {
     text={
-      text="53.增强党的团结，继承党的传统",--●53●
+      text="53《熊熊作业》",--●53●
     },
   },
-  {
-    text={
-      text="54.我们党的—些历史经验",--●54●
-    },
-  },
-  {
-    text={
-      text="55.纪念孙中山先生",--●55●
-    },
-  },
-  {
-    text={
-      text="56.在中国共产党第八届中央委员会第二次全体会议上的讲话",--●56●
-    },
-  },
-  {
-    text={
-      text="57.在省市自治区党委书记会议上的讲话",--●57●
-    },
-  },
-  {
-    text={
-      text="58.1关于正确处理人民内部矛盾的问题",--●58●
-    },
-  },
-  {
-    text={
-      text="58.2关于正确处理人民内部矛盾的问题（讲话稿）",--●58.2●
-    },
-  },
-  {
-    text={
-      text="59.在中国共产党全国宣传工作会议上的讲话",--●59●
-    },
-  },
-  {
-    text={
-      text="60.坚持艰苦奋斗，密切联系群众？",--●60●
-    },
-  },
-  {
-    text={
-      text="61.事情正在起变化",--●61●
-    },
-  },
-  {
-    text={
-      text="62.中国共产党是全中国人民的领导核心",--●62●
-    },
-  },
-  {
-    text={
-      text="63.组织力量反击右派分子的猖狂进攻",--●63●
-    },
-  },
-  {
-    text={
-      text="64.文汇报的资产阶级方向应当批判",--●64●
-    },
-  },
-  {
-    text={
-      text="65.打退资产阶级右派的进攻",--●65●
-    },
-  },
-  {
-    text={
-      text="66.一九五七年夏季的形势",--●66●
-    },
-  },
-  {
-    text={
-      text="67.做革命的促进派",--●67●
-    },
-  },
-  {
-    text={
-      text="68.坚定地相信群众的大多数",--●68●
-    },
-  },
-  {
-    text={
-      text="69.党内团结的辩证方法",--●69●
-    },
-  },
-  {
-    text={
-      text="70.一切反动派都是纸老虎",--●70●
-    },
-  },
+
 }
 
 items={
@@ -699,78 +610,6 @@ list.onItemClick=function(adp,view,pos,id)
     function()--●53●
       进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19560830.htm"})
     end,--结束●53●
-
-    function()--●54●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-195600925.htm"})
-    end,--结束●54●
-
-    function()--●55●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19561112.htm"})
-    end,--结束●55●
-
-    function()--●56●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19561115.htm"})
-    end,--结束●56●
-
-    function()--●57●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-195701.htm"})
-    end,--结束●57●
-
-    function()--●58●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570227.htm"})
-    end,--结束●58●
-
-    function()--●58.2●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570227AA.htm"})
-    end,--结束●58.2●
-
-    function()--●59●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570312.htm"})
-    end,--结束●59●
-
-    function()--●60●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-195703.htm"})
-    end,--结束●60●
-
-    function()--●61●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570515.htm"})
-    end,--结束●61●
-
-    function()--●62●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570525.htm"})
-    end,--结束●62●
-
-    function()--●63●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570608.htm"})
-    end,--结束●63●
-
-    function()--●64●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570701.htm"})
-    end,--结束●64●
-
-    function()--●65●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570709.htm"})
-    end,--结束●65●
-
-    function()--●66●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-195707.htm"})
-    end,--结束●66●
-
-    function()--●67●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19571009.htm"})
-    end,--结束●67●
-
-    function()--●68●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19571013.htm"})
-    end,--结束●68●
-
-    function()--●69●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19571118.htm"})
-    end,--结束●69●
-
-    function()--●70●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19571118a.htm"})
-    end,--结束●70●
 
   })[id]()
 end
