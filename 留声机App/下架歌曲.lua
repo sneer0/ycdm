@@ -3,7 +3,7 @@ import "android.widget.*"
 import "android.view.*"
 function onKeyDown()end
 function getStatusBarHeight()
-  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")-- 3 2 5 5 2 7 3 2
+  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")
   if resid>32552732*0 then
     return activity.getResources().getDimensionPixelSize(resid*((32552732-12345678)/2-10000000-(103001+525)))
   end
@@ -22,8 +22,8 @@ jdpuk={
   {
     LinearLayout,
     layout_width="fill",
-    --backgroundColor="#9CCC65",
-    backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),--3-2-5-5-2-7-3-2--
+    --kkgroundColor="#9CCC65",
+    backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),
     paddingTop=getStatusBarHeight(),
     {
       ToolBar,
@@ -33,9 +33,20 @@ jdpuk={
       layout_width="fill",
       layout_height="60dp",
       titleText="下架歌曲",--♥♥♥
-      --subTitle="32552732",
       returnButtonEnabled=true,
       elevation="-480dp",--未找到改变效果
+      {
+        ImageView;--图片控件
+        src='https://sneer0.github.io/ycdm/公用/ss.png';--图片路径
+        layout_width='25dp';--宽度
+        layout_height='25dp';--高度
+        scaleType='fitXY';--图片显示类型
+        layout_gravity='right|center';--重力
+        ColorFilter='0xffffffff';--图片着色
+        layout_marginRight='5%w';--右距
+        --style="?android:attr/buttonBarButtonStyle";--按钮特效
+        id="ss",
+      };
     },
   },
   {
@@ -95,7 +106,7 @@ adpd={
 
   {
     text={
-      text="🔍第三方搜索及投稿",--●1●
+      text="★  投稿下架歌曲",--●1●
     },
   },
   {
@@ -399,44 +410,20 @@ list.Adapter=adapter
 list.onItemClick=function(adp,view,pos,id)
   ({
 
-    function()--●第三方搜索●
-      items={}--第三方搜索开始♦♦♦♦
-      table.insert(items,"投稿下架歌曲")
-      table.insert(items,"第三方搜索❶")
-      table.insert(items,"第三方搜索❷")
-      table.insert(items,"第三方搜索❸")
-      AlertDialog.Builder(this)
-      --.setTitle("空白标题")--标题♥
-      .setItems(items,{onClick=function(l,v) 
-          if items[v+1]=="投稿下架歌曲" then
-            对话框()
-            .设置标题("投稿下架歌曲")
-            .设置消息("【加群传】加入投稿QQ群，直接发送歌曲文件到群内，大批量文件建议用压缩包。\n\n【在线传】在APP内上传音乐到云端，一次只能上传一个文件，如果投稿歌曲较多，可以把歌曲打包成压缩文件上传。")
-            .设置积极按钮("加群投稿",function()
-              加QQ群(207900539) 
-            end)
-            .设置中立按钮("在线投稿",function()
-              进入子页面("调用",{标题="投稿歌曲",链接="https://inbox.weiyun.com/tDAtbdZz"})
-              复制文本("https://inbox.weiyun.com/tDAtbdZz")
-              弹出消息("投稿链接已复制到剪切板")
-            end)
-            .显示()
-          end
-          if items[v+1]=="第三方搜索❶" then
-            进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search"})
-            弹出消息("此服务由第三方网站提供 请勿相信广告")
-          end
-          if items[v+1]=="第三方搜索❷" then
-            进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro"})
-            弹出消息("此服务由第三方网站提供 请勿相信广告")
-          end
-          if items[v+1]=="第三方搜索❸" then
-            进入子页面("调用",{标题="free mp3",链接="https://myfreemp3juices.cc"})
-            弹出消息("此服务由第三方网站提供，该网站有时会自动跳转到垃圾广告页面，若遇到这种情况，点击返回即可。请勿相信广告，否则一切损失后果自负！")
-          end
-        end})
-      .show()--第三方搜索结束♦♦♦♦
-    end,--结束●第三方搜索●
+    function()--●投稿下架歌曲开始●
+      对话框()
+      .设置标题("投稿下架歌曲")
+      .设置消息("【加群传】加入投稿QQ群，直接发送歌曲文件到群内，大批量文件建议用压缩包。\n\n【在线传】在APP内上传音乐到云端，一次只能上传一个文件，如果投稿歌曲较多，可以把歌曲打包成压缩文件上传。")
+      .设置积极按钮("加群投稿",function()
+        加QQ群(207900539) 
+      end)
+      .设置中立按钮("在线投稿",function()
+        进入子页面("调用",{标题="投稿歌曲",链接="https://inbox.weiyun.com/tDAtbdZz"})
+        复制文本("https://inbox.weiyun.com/tDAtbdZz")
+        弹出消息("投稿链接已复制到剪切板")
+      end)
+      .显示()
+    end,--结束●投稿下架歌曲结束●
 
     function()--●1●
       进入子页面("调用",{标题="01《未分类》",链接="https://sneer.lanzoui.com/b06t7ouvi"}) 
@@ -651,4 +638,29 @@ list.onItemClick=function(adp,view,pos,id)
     end,--结束●53●
 
   })[id]()
+end
+
+
+ss.onClick=function()--点击事件
+  items={}--第三方搜索开始♦♦♦♦
+  table.insert(items,"第三方搜索❶")
+  table.insert(items,"第三方搜索❷")
+  table.insert(items,"第三方搜索❸")
+  AlertDialog.Builder(this)
+  --.setTitle("空白标题")--标题♥
+  .setItems(items,{onClick=function(l,v) 
+      if items[v+1]=="第三方搜索❶" then
+        进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search"})
+        弹出消息("此服务由第三方网站提供 请勿相信广告")
+      end
+      if items[v+1]=="第三方搜索❷" then
+        进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro"})
+        弹出消息("此服务由第三方网站提供 请勿相信广告")
+      end
+      if items[v+1]=="第三方搜索❸" then
+        进入子页面("调用",{标题="free mp3",链接="https://myfreemp3juices.cc"})
+        弹出消息("此服务由第三方网站提供，该网站有时会自动跳转到垃圾广告页面，若遇到这种情况，点击返回即可。请勿相信广告，否则一切损失后果自负！")
+      end
+    end})
+  .show()--第三方搜索结束♦♦♦♦
 end
