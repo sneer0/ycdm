@@ -310,7 +310,7 @@ adpd={
   },
   {
     text={
-      text="43《my little airport小飞机场》",--●43●
+      text="43《my little airport》",--●43●
     },
   },
   {
@@ -424,15 +424,15 @@ list.onItemClick=function(adp,view,pos,id)
           end
           if items[v+1]=="第三方搜索❶" then
             进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search"})
-            弹出消息("此服务由第三方网站提供  请勿相信广告")
+            弹出消息("此服务由第三方网站提供 请勿相信广告")
           end
           if items[v+1]=="第三方搜索❷" then
             进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro"})
-            弹出消息("此服务由第三方网站提供  请勿相信广告")
+            弹出消息("此服务由第三方网站提供 请勿相信广告")
           end
           if items[v+1]=="第三方搜索❸" then
             进入子页面("调用",{标题="myfreemp3",链接="https://myfreemp3juices.cc"})
-            弹出消息("此服务由第三方网站提供,该网站有时会自动跳转到垃圾广告页面,若遇到这种情况,点击返回即可，请勿相信广告,否则一切损失后果自负!")
+            弹出消息("该网站有时会自动跳转到垃圾广告页面 点返回就能搜索")
           end
         end})
       .show()--第三方搜索结束♦♦♦♦
