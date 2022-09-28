@@ -440,84 +440,83 @@ list.onItemClick=function(adp,view,pos,id)
     end,--结束●10●
 
     function()--●11●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19510119.htm"})
+      进入子页面("调用",{标题="11《王洛宾》",链接="https://sneer.lanzoui.com/b06t7vera"})
     end,--结束●11●
 
     function()--●12●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19510218.htm"})
+      进入子页面("调用",{标题="12《赵雷》",链接="https://sneer.lanzoui.com/b06t7vfih"})
     end,--结束●12●
 
     function()--●13●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19510515.htm"})
+      进入子页面("调用",{标题="13《侃侃》",链接="https://sneer.lanzoui.com/b06t7vfmb"})
     end,--结束●13●
 
     function()--●14●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-195012.htm"})
+      进入子页面("调用",{标题="14《好妹妹乐队》",链接="https://sneer.lanzoui.com/b06t7vfqf"})
     end,--结束●14●
 
     function()--●15●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19510520.htm"})
+      进入子页面("调用",{标题="15《撒娇》",链接="https://sneer.lanzoui.com/b06t7vh9a"})
     end,--结束●15●
 
     function()--●16●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19511023.htm"})
+      进入子页面("调用",{标题="16《宋冬野》",链接="https://sneer.lanzoui.com/b06t7vq6b"})
     end,--结束●16●
 
     function()--●17●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-195111.htm"})
+      进入子页面("调用",{标题="17《晓月老板》",链接="https://sneer.lanzoui.com/b06t7vqgb"})
     end,--结束●17●
 
     function()--●18●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19511215.htm"})
+      进入子页面("调用",{标题="18《尧十三》",链接="https://sneer.lanzoui.com/b06t7vqlg"})
     end,--结束●18●
 
     function()--●19●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19520101.htm"})
+      进入子页面("调用",{标题="19《云母逼乐队》",链接="https://sneer.lanzoui.com/b06t7vqoj"})
     end,--结束●19●
 
     function()--●20●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19520406.htm"})
+      进入子页面("调用",{标题="20《周云蓬》",链接="https://sneer.lanzoui.com/b06t7vrpg"})
     end,--结束●20●
 
     function()--●21●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19520606.htm"})
+      进入子页面("调用",{标题="21《痛仰乐队》",链接="https://sneer.lanzoui.com/b06t7vs3a"})
     end,--结束●21●
 
     function()--●22●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19520804.htm"})
+      进入子页面("调用",{标题="22《马雨阳》",链接="https://sneer.lanzoui.com/b06t7vt0d"})
     end,--结束●22●
 
     function()--●23●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19521024.htm"})
+      进入子页面("调用",{标题="23《腰乐队》",链接="https://sneer.lanzoui.com/b06t7wakf"})
     end,--结束●23●
 
     function()--●24●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530105.htm"})
+      进入子页面("调用",{标题="24《黑撒乐队》",链接="https://sneer.lanzoui.com/b06t7wbij"})
     end,--结束●24●
 
     function()--●25●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530316.htm"})
+      进入子页面("调用",{标题="25《黑豹乐队》",链接="https://sneer.lanzoui.com/b06t7wbwd"})
     end,--结束●25●
 
     function()--●26●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530319.htm"})
+      进入子页面("调用",{标题="26《何教授》",链接="https://sneer.lanzoui.com/b06t7wcif"})
     end,--结束●26●
 
     function()--●27●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530519.htm"})
-    end,--结束●27●
+      进入子页面("调用",{标题="27《许巍》",链接="https://sneer.lanzoui.com/b06t7we7g"})
+   end,--结束●27●
 
     function()--●28●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530615.htm"})
+      进入子页面("调用",{标题="28《贰佰》",链接="https://sneer.lanzoui.com/b06t7wflg"})
     end,--结束●28●
 
     function()--●29●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530630.htm"})
+      进入子页面("调用",{标题="29《驳倒乐队》",链接="https://sneer.lanzoui.com/b06t7wg2d"})
     end,--结束●29●
 
     function()--●30●
-      进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530709.htm"})
-    end,--结束●30●
+      进入子页面("调用",{标题="30《谢天笑》",链接="https://sneer.lanzoui.com/b06t7wgzg"})    end,--结束●30●
 
     function()--●31●
       进入子页面("浏览器",{链接="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-195308.htm"})
