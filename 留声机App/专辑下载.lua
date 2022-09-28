@@ -1,9 +1,10 @@
+--程序启动时会执行的事件
 require"import"
 import "android.widget.*"
 import "android.view.*"
 function onKeyDown()end
 function getStatusBarHeight()
-  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")-- 3 2 5 5 2 7 3 2
+  local resid=activity.getResources().getIdentifier("status_bar_height","dimen","android")
   if resid>32552732*0 then
     return activity.getResources().getDimensionPixelSize(resid*((32552732-12345678)/2-10000000-(103001+525)))
   end
@@ -22,9 +23,11 @@ jdpuk={
   {
     LinearLayout,
     layout_width="fill",
-    --backgroundColor="#9CCC65",
-    backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),--3-2-5-5-2-7-3-2--
+    --kkgroundColor="#9CCC65",
+    backgroundDrawable=GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{clr1,clr2}),
     paddingTop=getStatusBarHeight(),
+
+    --
     {
       ToolBar,
       --backgroundColor="#9CCC65",
@@ -33,9 +36,20 @@ jdpuk={
       layout_width="fill",
       layout_height="60dp",
       titleText="专辑下载",--♥♥♥
-      --subTitle="32552732",
       returnButtonEnabled=true,
       elevation="-480dp",--未找到改变效果
+      {
+        ImageView;--图片控件
+        src='https://sneer0.github.io/ycdm/公用/ss.png';--图片路径
+        layout_width='25dp';--宽度
+        layout_height='25dp';--高度
+        scaleType='fitXY';--图片显示类型
+        layout_gravity='right|center';--重力
+        ColorFilter='0xffffffff';--图片着色
+        layout_marginRight='5%w';--右距
+        --style="?android:attr/buttonBarButtonStyle";--按钮特效
+        id="ss",
+      };
     },
   },
   {
@@ -93,14 +107,9 @@ activity.setContentView(loadlayout(jdpuk))
 
 adpd={
 
-    {
-    text={
-      text="🔍搜索李志全部歌曲",--●1●
-    },
-  },
   {
     text={
-      text="☁️直接帮你传到网易音乐云盘",--●1●
+      text="️直接帮你传到网易音乐云盘☁",--●1●
     },
   },
   {
@@ -203,7 +212,7 @@ adpd={
       text="批量下载全部歌曲☚",--●20●
     },
   },
- 
+
 }
 
 items={
@@ -226,7 +235,7 @@ items={
     },
     {
       TextView,
-      layout_alignParentRight=true,--32552732
+      layout_alignParentRight=true,
       text="⟩",--箭头♥♥♥
       textSize="15sp",--项目右箭头大小
       textColor="#888888",
@@ -239,123 +248,165 @@ list.Adapter=adapter
 list.onItemClick=function(adp,view,pos,id)
   ({
 
-    function()--●第三方搜索●
-      items={}--第三方搜索开始♦♦♦♦
-      table.insert(items,"投稿下架歌曲")
-      table.insert(items,"第三方搜索❶")
-      table.insert(items,"第三方搜索❷")
-      table.insert(items,"第三方搜索❸")
-      AlertDialog.Builder(this)
-      --.setTitle("空白标题")--标题♥
-      .setItems(items,{onClick=function(l,v) 
-          if items[v+1]=="投稿下架歌曲" then
-            对话框()
-            .设置标题("投稿下架歌曲")
-            .设置消息("【加群传】加入投稿QQ群，直接发送歌曲文件到群内，大批量文件建议用压缩包。\n\n【在线传】在APP内上传音乐到云端，一次只能上传一个文件，如果投稿歌曲较多，可以把歌曲打包成压缩文件上传。")
-            .设置积极按钮("加群投稿",function()
-              加QQ群(207900539) 
-            end)
-            .设置中立按钮("在线投稿",function()
-              进入子页面("调用",{标题="投稿歌曲",链接="https://inbox.weiyun.com/tDAtbdZz"})
-              复制文本("https://inbox.weiyun.com/tDAtbdZz")
-              弹出消息("投稿链接已复制到剪切板")
-            end)
-            .显示()
-          end
-          if items[v+1]=="第三方搜索❶" then
-            进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search"})
-            弹出消息("此服务由第三方网站提供 请勿相信广告")
-          end
-          if items[v+1]=="第三方搜索❷" then
-            进入子页面("调用",{标题="lemuzika",链接="https://lemuzika.pro"})
-            弹出消息("此服务由第三方网站提供 请勿相信广告")
-          end
-          if items[v+1]=="第三方搜索❸" then
-            进入子页面("调用",{标题="free mp3",链接="https://myfreemp3juices.cc"})
-            弹出消息("此服务由第三方网站提供，该网站有时会自动跳转到垃圾广告页面，若遇到这种情况，点击返回即可。请勿相信广告，否则一切损失后果自负！")
-          end
-        end})
-      .show()--第三方搜索结束♦♦♦♦
-    end,--结束●第三方搜索●
+    function()--●传云盘开始●
+      对话框()
+      .设置标题("帮你传到网易云音乐云盘")
+      .设置消息("❶由于私聊人数太多，实在无力帮到每一个人，以后只能帮捐赠过APP的铁子传歌啦，望理解。\n❷传云盘后可以直接用网易云音乐听李志的歌，还可以加进歌单、在歌单内直接搜索歌曲，听歌更方便。\n❸捐赠前请仔细阅读《捐赠须知》，所有问题都写的很清楚，精力有限，急听勿捐，啰嗦勿扰！！")
+      .设置积极按钮("捐赠APP",function()
+        进入子页面("调用",{标题="捐赠APP",链接="https://support.qq.com/embed/phone/191061/blog/505761"})
+      end)
+      .设置中立按钮("关于云盘",function()
+        进入子页面("浏览器",{标题="关于云盘",链接="https://m.baidu.com/s?wd=网易云音乐云盘在哪打开"})
+      end)
+      .显示() 
+    end,--结束●传云盘结束●
 
     function()--●1●
-      进入子页面("调用",{标题="01《未分类》",链接="https://sneer.lanzoui.com/b06t7ouvi"}) 
+      进入子页面("调用",{标题="2004年《被禁忌的游戏》",链接="https://sneer.lanzoux.com/b06s2yt2h"})
     end,--结束●1●
 
     function()--●2●
-      进入子页面("调用",{标题="02《崔健》",链接="https://sneer.lanzoui.com/b06t7n6vi"})
+      进入子页面("调用",{标题="2005年《梵高先生》",链接="https://sneer.lanzoux.com/b06s2yv1i"})
     end,--结束●2●
 
     function()--●3●
-      进入子页面("调用",{标题="03《刘森》",链接="https://sneer.lanzoui.com/b06t7n80j"})
+      进入子页面("调用",{标题="2006年《这个世界会好吗》",链接="https://sneer.lanzoux.com/b06s2yv4b"})
     end,--结束●3●
 
     function()--●4●
-      进入子页面("调用",{标题="04《老狼》",链接="https://sneer.lanzoui.com/b06t7qtha"})
+      进入子页面("调用",{标题="2009年《工体东路没有人》",链接="https://sneer.lanzoux.com/b06s2yv9g"})
     end,--结束●4●
 
     function()--●5●
-      进入子页面("调用",{标题="05《伍佰》",链接="https://sneer.lanzoui.com/b06t7qtle"})
+      进入子页面("调用",{标题="2009年《我爱南京》",链接="https://sneer.lanzoux.com/b06s2yvah"})
     end,--结束●5●
 
     function()--●6●
-      进入子页面("调用",{标题="06《红色摇滚》",链接="https://sneer.lanzoui.com/b06t7qtud"})
+      进入子页面("调用",{标题="2010年《你好，郑州》 ",链接="https://sneer.lanzoux.com/b06s2yvda"})
     end,--结束●6●
 
     function()--●7●
-      进入子页面("调用",{标题="07《万能青年旅店》",链接="https://sneer.lanzoui.com/b06t7qtzi"})
+      进入子页面("调用",{标题="2011年《F》",链接="https://sneer.lanzoux.com/b06s2yvhe"})
     end,--结束●7●
 
     function()--●8●
-      进入子页面("调用",{标题="08《现代人乐队》",链接="https://sneer.lanzoui.com/b06t7vanc"}) 
+      进入子页面("调用",{标题="2013年《108个关键词》",链接="https://sneer.lanzoux.com/b06s2yvpc"})
     end,--结束●8●
 
     function()--●9●
-      进入子页面("调用",{标题="09《花粥》",链接="https://sneer.lanzoui.com/b06t7vdna"})
+      进入子页面("调用",{标题="2014年《1701》",链接="https://sneer.lanzoux.com/b06s2ywzi"})
     end,--结束●9●
 
     function()--●10●
-      进入子页面("调用",{标题="10《GALA》",链接="https://sneer.lanzoui.com/b06t7ve6j"})
+      进入子页面("调用",{标题="2014年《勾三搭四》",链接="https://sneer.lanzoux.com/b06s2yyqb"})
     end,--结束●10●
 
     function()--●11●
-      进入子页面("调用",{标题="11《王洛宾》",链接="https://sneer.lanzoui.com/b06t7vera"})
+      进入子页面("调用",{标题="2015年“看见”巡演北京站 ",链接="https://sneer.lanzoux.com/b06s2z07e"})
     end,--结束●11●
 
     function()--●12●
-      进入子页面("调用",{标题="12《赵雷》",链接="https://sneer.lanzoui.com/b06t7vfih"})
+      进入子页面("调用",{标题="2015年《i.O》",链接="https://sneer.lanzoux.com/b06s2z0na"})
     end,--结束●12●
 
     function()--●13●
-      进入子页面("调用",{标题="13《侃侃》",链接="https://sneer.lanzoui.com/b06t7vfmb"})
+      进入子页面("调用",{标题="2016年《8》",链接="https://sneer.lanzoux.com/b06s2z0pc"})
     end,--结束●13●
 
     function()--●14●
-      进入子页面("调用",{标题="14《好妹妹乐队》",链接="https://sneer.lanzoui.com/b06t7vfqf"})
+      进入子页面("调用",{标题="2016年《动静》",链接="https://sneer.lanzoux.com/b06s2z11e"})
     end,--结束●14●
 
     function()--●15●
-      进入子页面("调用",{标题="15《撒娇》",链接="https://sneer.lanzoui.com/b06t7vh9a"})
+      进入子页面("调用",{标题="2016年《在每一条伤心的应天大街上》",链接="https://sneer.lanzoux.com/b06s2z1be"})
     end,--结束●15●
 
     function()--●16●
-      进入子页面("调用",{标题="16《宋冬野》",链接="https://sneer.lanzoui.com/b06t7vq6b"})
+      进入子页面("调用",{标题="2017年《电声与管弦乐》",链接="https://sneer.lanzoux.com/b06s2z1dg"})
     end,--结束●16●
 
     function()--●17●
-      进入子页面("调用",{标题="17《晓月老板》",链接="https://sneer.lanzoui.com/b06t7vqgb"})
+      进入子页面("调用",{标题="2018年《爵士与不插电新编12首》 ",链接="https://sneer.lanzoux.com/b06s2z1gj"})
     end,--结束●17●
 
     function()--●18●
-      进入子页面("调用",{标题="18《尧十三》",链接="https://sneer.lanzoui.com/b06t7vqlg"})
+      items={}
+      table.insert(items,"0001年《李志早期歌曲》")
+      table.insert(items,"0002年《李志翻唱歌曲》")
+      table.insert(items,"0003年《无专辑歌曲》")
+      table.insert(items,"2009年《2009年10月16日事件》")
+      table.insert(items,"2011年《Imagine Live》")
+      table.insert(items,"2014年《李志郑州站》")
+      table.insert(items,"2015年《0808杭州酒球会》")
+      table.insert(items,"2016年《北京不插电现场》")
+      table.insert(items,"2019年《洗心革面》")
+      AlertDialog.Builder(this)
+      .setTitle("未发售专辑(珍藏版)")--标题
+      .setItems(items,{onClick=function(l,v) 
+          if items[v+1]=="0001年《李志早期歌曲》" then
+            进入子页面("调用",{标题="0001年《李志早期歌曲》",链接="https://sneer.lanzoui.com/b06t7mxyh"})
+          end
+          if items[v+1]=="0002年《李志翻唱歌曲》" then
+            进入子页面("调用",{标题="0002年《李志翻唱歌曲》",链接="https://sneer.lanzoui.com/b06t7myod"})
+          end
+          if items[v+1]=="0003年《无专辑歌曲》" then
+            进入子页面("调用",{标题="0003年《无专辑歌曲》",链接="https://sneer.lanzoui.com/b06t7pe7e"})
+          end
+          if items[v+1]=="2009年《2009年10月16日事件》" then
+            进入子页面("调用",{标题="2009年《2009年10月16日事件》",链接="https://sneer.lanzoux.com/b06sfnwyj"})
+          end
+          if items[v+1]=="2011年《Imagine Live》" then
+            进入子页面("调用",{标题="2011年《Imagine Live》",链接="https://sneer.lanzoux.com/b06sfnwpa"})
+          end
+          if items[v+1]=="2014年《李志郑州站》" then
+            进入子页面("调用",{标题="2014年《李志郑州站》",链接="https://sneer.lanzoui.com/b06t7p4he"})
+          end
+          if items[v+1]=="2015年《0808杭州酒球会》" then
+            进入子页面("调用",{标题="2015年《0808杭州酒球会》",链接="https://sneer.lanzoui.com/b06t7p46d"})
+          end
+          if items[v+1]=="2016年《北京不插电现场》" then
+            进入子页面("调用",{标题="2016年《北京不插电现场》",链接="https://sneer.lanzoux.com/b06sfnwxi"})
+          end
+          if items[v+1]=="2019年《洗心革面》" then
+            进入子页面("调用",{标题="2019年《洗心革面》",链接="https://sneer.lanzoux.com/b06s2z25e"})
+          end
+        end})
+      .show() 
     end,--结束●18●
 
     function()--●19●
-      进入子页面("调用",{标题="19《云母逼乐队》",链接="https://sneer.lanzoui.com/b06t7vqoj"})
+      items={}
+      table.insert(items,"《李志自传》")
+      table.insert(items,"《李志吉他谱》")
+      table.insert(items,"《专辑封面图》")
+      table.insert(items,"《写给粉丝的话》")
+      AlertDialog.Builder(this)
+      .setTitle("李志相关文件(珍藏版)")--标题
+      .setItems(items,{onClick=function(l,v) 
+          if items[v+1]=="《李志自传》" then
+            进入子页面("浏览器",{标题="《李志自传》",链接=("https://sneer.lanzoui.com/tp/iUqz7wpgchc")})
+          end
+          if items[v+1]=="《李志吉他谱》" then
+            进入子页面("浏览器",{标题="《李志吉他谱》",链接="https://sneer.lanzoui.com/tp/iRHA2wpgcej"})
+          end
+          if items[v+1]=="《专辑封面图》" then
+            进入子页面("浏览器",{标题="《专辑封面图》",链接="https://sneer.lanzoui.com/tp/iKQWWwpdp7c"})
+          end
+          if items[v+1]=="《写给粉丝的话》" then
+            进入子页面("浏览器",{标题="《写给粉丝的话》",链接="https://sneer.lanzoui.com/tp/iIjmFwpgcid"})
+          end
+        end})
+      .show()
     end,--结束●19●
 
     function()--●20●
-      进入子页面("调用",{标题="20《周云蓬》",链接="https://sneer.lanzoui.com/b06t7vrpg"})
+      对话框()
+      .设置标题("批量下载全部歌曲")
+      .设置消息("❶加入官方QQ群1134955984\n❷进群请务必仔细阅读群公告\n❸在群文件找到相关压缩文件")
+      .设置积极按钮("加群下载",function()
+        进入子页面("调用",{标题="加歌友群",链接="https://support.qq.com/embed/phone/191061/blog/509431"})
+      end)
+      .显示()
     end,--结束●20●
 
     function()--●21●
@@ -379,4 +430,8 @@ list.onItemClick=function(adp,view,pos,id)
     end,--结束●25●
 
   })[id]()
+end
+
+ss.onClick=function()--点击事件
+  进入子页面("调用",{标题="搜索李志歌曲",链接="https://www.lanzoui.com/b04ak7b5i"})
 end
