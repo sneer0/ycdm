@@ -374,28 +374,7 @@ list.onItemClick=function(adp,view,pos,id)
     end,--结束●18●
 
     function()--●19●
-      items={}
-      table.insert(items,"《李志自传》")
-      table.insert(items,"《李志吉他谱》")
-      table.insert(items,"《专辑封面图》")
-      table.insert(items,"《写给粉丝的话》")
-      AlertDialog.Builder(this)
-      .setTitle("李志相关文件(珍藏版)")--标题
-      .setItems(items,{onClick=function(l,v) 
-          if items[v+1]=="《李志自传》" then
-            进入子页面("浏览器",{标题="《李志自传》",链接=("https://lanzoui.com/ihsE20cla6kf")})
-          end
-          if items[v+1]=="《李志吉他谱》" then
-            进入子页面("浏览器",{标题="《李志吉他谱》",链接="https://lanzoui.com/iYmiX0cla4le"})
-          end
-          if items[v+1]=="《专辑封面图》" then
-            进入子页面("浏览器",{标题="《专辑封面图》",链接="https://lanzoui.com/iiFr80cla6di"})
-          end
-          if items[v+1]=="《写给粉丝的话》" then
-            进入子页面("浏览器",{标题="《写给粉丝的话》",链接="https://lanzoui.com/ieYap0cla6oj"})
-          end
-        end})
-      .show()
+            进入子页面("浏览器",{标题="《李志自传》",链接=("https://lanzoui.com/b06ugp0le")})
     end,--结束●19●
 
     function()--●20●
