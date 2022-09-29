@@ -383,16 +383,16 @@ list.onItemClick=function(adp,view,pos,id)
       .setTitle("李志相关文件(珍藏版)")--标题
       .setItems(items,{onClick=function(l,v) 
           if items[v+1]=="《李志自传》" then
-            进入子页面("浏览器",{标题="《李志自传》",链接=("https://lanzoui.com/tp/iUqz7wpgchc")})
+            进入子页面("浏览器",{标题="《李志自传》",链接=("https://lanzoui.com/iUqz7wpgchc")})
           end
           if items[v+1]=="《李志吉他谱》" then
-            进入子页面("浏览器",{标题="《李志吉他谱》",链接="https://lanzoui.com/tp/iRHA2wpgcej"})
+            进入子页面("浏览器",{标题="《李志吉他谱》",链接="https://lanzoui.com/iRHA2wpgcej"})
           end
           if items[v+1]=="《专辑封面图》" then
-            进入子页面("浏览器",{标题="《专辑封面图》",链接="https://lanzoui.com/tp/iKQWWwpdp7c"})
+            进入子页面("浏览器",{标题="《专辑封面图》",链接="https://lanzoui.com/iKQWWwpdp7c"})
           end
           if items[v+1]=="《写给粉丝的话》" then
-            进入子页面("浏览器",{标题="《写给粉丝的话》",链接="https://lanzoui.com/tp/iIjmFwpgcid"})
+            进入子页面("浏览器",{标题="《写给粉丝的话》",链接="https://lanzoui.com/iIjmFwpgcid"})
           end
         end})
       .show()
@@ -407,26 +407,6 @@ list.onItemClick=function(adp,view,pos,id)
       end)
       .显示()
     end,--结束●20●
-
-    function()--●21●
-      进入子页面("调用",{标题="21《痛仰乐队》",链接="https://lanzoui.com/b06t7vs3a"})
-    end,--结束●21●
-
-    function()--●22●
-      进入子页面("调用",{标题="22《马雨阳》",链接="https://lanzoui.com/b06t7vt0d"})
-    end,--结束●22●
-
-    function()--●23●
-      进入子页面("调用",{标题="23《腰乐队》",链接="https://lanzoui.com/b06t7wakf"})
-    end,--结束●23●
-
-    function()--●24●
-      进入子页面("调用",{标题="24《黑撒乐队》",链接="https://lanzoui.com/b06t7wbij"})
-    end,--结束●24●
-
-    function()--●25●
-      进入子页面("调用",{标题="25《黑豹乐队》",链接="https://lanzoui.com/b06t7wbwd"})
-    end,--结束●25●
 
   })[id]()
 end
