@@ -261,71 +261,71 @@ list.onItemClick=function(adp,view,pos,id)
     end,--结束●传云盘结束●
 
     function()--●1●
-      进入子页面("调用",{标题="2004年《被禁忌的游戏》",链接="https://sneer.lanzoux.com/b06s2yt2h"})
+      进入子页面("调用",{标题="2004年《被禁忌的游戏》",链接="https://sneer.lanzoui.com/b06s2yt2h"})
     end,--结束●1●
 
     function()--●2●
-      进入子页面("调用",{标题="2005年《梵高先生》",链接="https://sneer.lanzoux.com/b06s2yv1i"})
+      进入子页面("调用",{标题="2005年《梵高先生》",链接="https://sneer.lanzoui.com/b06s2yv1i"})
     end,--结束●2●
 
     function()--●3●
-      进入子页面("调用",{标题="2006年《这个世界会好吗》",链接="https://sneer.lanzoux.com/b06s2yv4b"})
+      进入子页面("调用",{标题="2006年《这个世界会好吗》",链接="https://sneer.lanzoui.com/b06s2yv4b"})
     end,--结束●3●
 
     function()--●4●
-      进入子页面("调用",{标题="2009年《工体东路没有人》",链接="https://sneer.lanzoux.com/b06s2yv9g"})
+      进入子页面("调用",{标题="2009年《工体东路没有人》",链接="https://sneer.lanzoui.com/b06s2yv9g"})
     end,--结束●4●
 
     function()--●5●
-      进入子页面("调用",{标题="2009年《我爱南京》",链接="https://sneer.lanzoux.com/b06s2yvah"})
+      进入子页面("调用",{标题="2009年《我爱南京》",链接="https://sneer.lanzoui.com/b06s2yvah"})
     end,--结束●5●
 
     function()--●6●
-      进入子页面("调用",{标题="2010年《你好，郑州》 ",链接="https://sneer.lanzoux.com/b06s2yvda"})
+      进入子页面("调用",{标题="2010年《你好，郑州》 ",链接="https://sneer.lanzoui.com/b06s2yvda"})
     end,--结束●6●
 
     function()--●7●
-      进入子页面("调用",{标题="2011年《F》",链接="https://sneer.lanzoux.com/b06s2yvhe"})
+      进入子页面("调用",{标题="2011年《F》",链接="https://sneer.lanzoui.com/b06s2yvhe"})
     end,--结束●7●
 
     function()--●8●
-      进入子页面("调用",{标题="2013年《108个关键词》",链接="https://sneer.lanzoux.com/b06s2yvpc"})
+      进入子页面("调用",{标题="2013年《108个关键词》",链接="https://sneer.lanzoui.com/b06s2yvpc"})
     end,--结束●8●
 
     function()--●9●
-      进入子页面("调用",{标题="2014年《1701》",链接="https://sneer.lanzoux.com/b06s2ywzi"})
+      进入子页面("调用",{标题="2014年《1701》",链接="https://sneer.lanzoui.com/b06s2ywzi"})
     end,--结束●9●
 
     function()--●10●
-      进入子页面("调用",{标题="2014年《勾三搭四》",链接="https://sneer.lanzoux.com/b06s2yyqb"})
+      进入子页面("调用",{标题="2014年《勾三搭四》",链接="https://sneer.lanzoui.com/b06s2yyqb"})
     end,--结束●10●
 
     function()--●11●
-      进入子页面("调用",{标题="2015年“看见”巡演北京站 ",链接="https://sneer.lanzoux.com/b06s2z07e"})
+      进入子页面("调用",{标题="2015年“看见”巡演北京站 ",链接="https://sneer.lanzoui.com/b06s2z07e"})
     end,--结束●11●
 
     function()--●12●
-      进入子页面("调用",{标题="2015年《i.O》",链接="https://sneer.lanzoux.com/b06s2z0na"})
+      进入子页面("调用",{标题="2015年《i.O》",链接="https://sneer.lanzoui.com/b06s2z0na"})
     end,--结束●12●
 
     function()--●13●
-      进入子页面("调用",{标题="2016年《8》",链接="https://sneer.lanzoux.com/b06s2z0pc"})
+      进入子页面("调用",{标题="2016年《8》",链接="https://sneer.lanzoui.com/b06s2z0pc"})
     end,--结束●13●
 
     function()--●14●
-      进入子页面("调用",{标题="2016年《动静》",链接="https://sneer.lanzoux.com/b06s2z11e"})
+      进入子页面("调用",{标题="2016年《动静》",链接="https://sneer.lanzoui.com/b06s2z11e"})
     end,--结束●14●
 
     function()--●15●
-      进入子页面("调用",{标题="2016年《在每一条伤心的应天大街上》",链接="https://sneer.lanzoux.com/b06s2z1be"})
+      进入子页面("调用",{标题="2016年《在每一条伤心的应天大街上》",链接="https://sneer.lanzoui.com/b06s2z1be"})
     end,--结束●15●
 
     function()--●16●
-      进入子页面("调用",{标题="2017年《电声与管弦乐》",链接="https://sneer.lanzoux.com/b06s2z1dg"})
+      进入子页面("调用",{标题="2017年《电声与管弦乐》",链接="https://sneer.lanzoui.com/b06s2z1dg"})
     end,--结束●16●
 
     function()--●17●
-      进入子页面("调用",{标题="2018年《爵士与不插电新编12首》 ",链接="https://sneer.lanzoux.com/b06s2z1gj"})
+      进入子页面("调用",{标题="2018年《爵士与不插电新编12首》 ",链接="https://sneer.lanzoui.com/b06s2z1gj"})
     end,--结束●17●
 
     function()--●18●
@@ -352,10 +352,10 @@ list.onItemClick=function(adp,view,pos,id)
             进入子页面("调用",{标题="0003年《无专辑歌曲》",链接="https://sneer.lanzoui.com/b06t7pe7e"})
           end
           if items[v+1]=="2009年《2009年10月16日事件》" then
-            进入子页面("调用",{标题="2009年《2009年10月16日事件》",链接="https://sneer.lanzoux.com/b06sfnwyj"})
+            进入子页面("调用",{标题="2009年《2009年10月16日事件》",链接="https://sneer.lanzoui.com/b06sfnwyj"})
           end
           if items[v+1]=="2011年《Imagine Live》" then
-            进入子页面("调用",{标题="2011年《Imagine Live》",链接="https://sneer.lanzoux.com/b06sfnwpa"})
+            进入子页面("调用",{标题="2011年《Imagine Live》",链接="https://sneer.lanzoui.com/b06sfnwpa"})
           end
           if items[v+1]=="2014年《李志郑州站》" then
             进入子页面("调用",{标题="2014年《李志郑州站》",链接="https://sneer.lanzoui.com/b06t7p4he"})
@@ -364,10 +364,10 @@ list.onItemClick=function(adp,view,pos,id)
             进入子页面("调用",{标题="2015年《0808杭州酒球会》",链接="https://sneer.lanzoui.com/b06t7p46d"})
           end
           if items[v+1]=="2016年《北京不插电现场》" then
-            进入子页面("调用",{标题="2016年《北京不插电现场》",链接="https://sneer.lanzoux.com/b06sfnwxi"})
+            进入子页面("调用",{标题="2016年《北京不插电现场》",链接="https://sneer.lanzoui.com/b06sfnwxi"})
           end
           if items[v+1]=="2019年《洗心革面》" then
-            进入子页面("调用",{标题="2019年《洗心革面》",链接="https://sneer.lanzoux.com/b06s2z25e"})
+            进入子页面("调用",{标题="2019年《洗心革面》",链接="https://sneer.lanzoui.com/b06s2z25e"})
           end
         end})
       .show() 
@@ -432,5 +432,5 @@ list.onItemClick=function(adp,view,pos,id)
 end
 
 ss.onClick=function()--点击事件
-  进入子页面("调用",{标题="搜索李志歌曲",链接="https://www.lanzoui.com/b04ak7b5i"})
+  进入子页面("调用",{标题="搜索李志歌曲",链接="https://lanzoui.com/b04ak7b5i"})
 end
