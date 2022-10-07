@@ -57,9 +57,3 @@
 	</script>
 </body>
 </html>
-
-<script>
-//02:28-08
-function loadJs(path,callback){var header=document.getElementsByTagName("head")[0];var script=document.createElement('script');script.setAttribute('src',path);header.appendChild(script);if(!/*@cc_on!@*/false){script.onload=function(){callback();}}else{script.onreadystatechange=function(){if(script.readystate=="loaded" ||script.readState=='complate'){callback();}}}}
-        loadJs("https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/Plugins/APlayer/JsHD-APlayer.js",function(){APlayer("artist","netease","51156656","0")});
-</script>
