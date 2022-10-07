@@ -338,9 +338,7 @@ xx=
 
   tp4.onClick=function()--❹❹❹❹❹开始
     huad.showPage(3)--滑动图片
-    local txt="1xxzq"--休闲专区
-  io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
-  进入子页面("横竖屏")
+    进入子页面("调用",{链接="data:text/txt,xxzq"})
   end--❹❹❹❹❹结束
 
   tp5.onClick=function()--❻❺❺❺❺开始
