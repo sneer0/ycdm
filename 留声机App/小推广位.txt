@@ -243,7 +243,6 @@ xx=
                   },
                 },
               },
-              --❼❼❼❼❼
               
             --结束♥♥♥♥♥♥♥♥♥♥♥♥
 
@@ -353,11 +352,6 @@ xx=
     huad.showPage(5)--滑动图片
     进入子页面("浏览器",{标题="最新版本APP【请更新】",链接="https://sneer.lanzoui.com/b06s2z42d"})
   end--❻❻❻❻❻结束
-
-  tp7.onClick=function()--❼❼❼❼❼开始
-    huad.showPage(6)--滑动图片
-    进入子页面("社区")
-  end--❼❼❼❼❼结束
 
   --设置图片停留时间
   local n=0 
