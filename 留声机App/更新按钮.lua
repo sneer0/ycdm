@@ -1,12 +1,3 @@
---跳转浏览器下载结束♥
-local 链接=下载.text
-import "android.content.Intent"
-import "android.net.Uri"
-url=下载
-viewIntent = Intent("android.intent.action.VIEW",Uri.parse(url))
-activity.startActivity(viewIntent)
---跳转浏览器下载开始♥
-
 --备用更新开始♥
 对话框()
 .设置标题("备用更新")
