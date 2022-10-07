@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>嘲讽的网易云主页</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+        body, html{
+            width: 100%;
+            height: 100%;
+        }
+        .policy-wrapper {
+            text-align: center;
+        padding-top:1.11rem;//页头留白用的
+        }
+        .policy-wrapper h2 {
+            font-family: PingFangSC-Semibold;
+            font-size: .4rem;
+            color: rgba(0,0,0,0.80);
+            letter-spacing: 0;
+        }
+        .policy-wrapper p {
+            margin: .3rem 0;//正文行间距
+            padding: 0 .36rem;
+            font-family: PingFangSC-Regular;
+            font-size: .28rem;
+            color: rgba(0,0,0,0.70);
+            letter-spacing: 0;
+            text-align: left;
+            line-height: .44rem;
+        }
+        .policy-wrapper p span {
+            color: rgb(81,133,194);
+        }
+        .policy-wrapper .top-img {
+            width: 76.8%;
+        }
+        a:link {color: blue; text-decoration:none;} //未访问：蓝色、无下划线
+        </style>
+    </head>
+    <body>
+    <div class="policy-wrapper">
+        <h2>音乐星球</h2>
+        <p style="text-indent:2em">音乐星球是咱们APP用户群里一批热爱音乐、喜欢唱歌的小伙伴创建的组织。</p >
+    <p style="text-indent:2em"></p >
+    <p style="text-indent:2em"></p >
+    <p style="text-indent:2em"></p >
+    </div>
+    <script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/ 7.5+ 'px';
+		window.addEventListener('resize',
+		    function() {  //添加监听，为了自适应
+		        document.documentElement.style.fontSize = document.documentElement.clientWidth/ 7.5+ 'px';
+		}, false);
+	</script>
+</body>
+</html>
+
+<script>
+//02:28-08
+function loadJs(path,callback){var header=document.getElementsByTagName("head")[0];var script=document.createElement('script');script.setAttribute('src',path);header.appendChild(script);if(!/*@cc_on!@*/false){script.onload=function(){callback();}}else{script.onreadystatechange=function(){if(script.readystate=="loaded" ||script.readState=='complate'){callback();}}}}
+        loadJs("https://yyyp.oss-cn-beijing.aliyuncs.com/CDN/Plugins/APlayer/JsHD-APlayer.js",function(){APlayer("artist","netease","51156656","0")});
+</script>
