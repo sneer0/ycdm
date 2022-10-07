@@ -12,3 +12,5 @@
 :END】
 【下载地址】https://lanzoux.com/b06s2z42d【下载地址】
 END}
+
+--记得改【更新按钮.lua】♥♥♥
