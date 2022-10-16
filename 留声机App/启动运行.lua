@@ -1,4 +1,4 @@
---切换主页♥♥♥♥♥
+--切换主页网站，移植需要修改储存路径♥♥♥♥♥
 local f=io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm",'r')
 if f~=nil
 then
