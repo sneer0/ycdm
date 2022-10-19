@@ -42,7 +42,7 @@ for pageid in io.lines("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.
   if pageid =="znxl" then 
     --智能线路开始♥♥♥
     加载网页("https://2019334.xyz")
-    弹出消息("智能线路连接中...")
+    --弹出消息("智能线路连接中...")
     --智能线路结束♥♥♥
   elseif pageid =="1" then 
     加载网页("http://334lizhi.top")
