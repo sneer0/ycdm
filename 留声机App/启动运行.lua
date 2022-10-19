@@ -115,7 +115,7 @@ gg=
 toolbar.parent.addView(loadlayout(gg))--结束♥♥♥]]
 
 task(15000,function()--延迟15秒运行●
-  设置顶栏标题("")--设置顶栏标题空白
+  设置顶栏标题(" ")--设置顶栏标题空白
 end)--延迟结束●
 
 
