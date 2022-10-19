@@ -112,10 +112,11 @@ gg=
   layout_height='fill';--布局高度
   },
 };
+toolbar.parent.addView(loadlayout(gg))--结束♥♥♥]]
+
 task(15000,function()--延迟15秒运行●
   设置顶栏标题("")--设置顶栏标题空白
 end)--延迟结束●
-toolbar.parent.addView(loadlayout(gg))--结束♥♥♥]]
 
 
 task(480000,function()--延迟8分钟运行
