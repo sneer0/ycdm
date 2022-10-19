@@ -88,7 +88,7 @@ end)--延迟运行结束❷❷❷]]
 
 
 
---[[顶栏滚动文字开启♥♥♥
+--顶栏滚动文字开启♥♥♥
 gg=
 {
   LinearLayout;--线性布局
@@ -103,7 +103,7 @@ gg=
     layout_marginLeft='14%w',--布局左距
     layout_marginRight='21%w',--布局右距
     ellipsize='marquee', 
-    text='                                                                   不要点这里~                                                                                                                                                   ',--这一段是空格
+    text='                                                                   不要点这里~',--这一段是空格
     --【留住消逝的声音，让热爱音乐的人相遇~】
     textSize='16sp',--标题大小
     Selected=true,
@@ -112,6 +112,9 @@ gg=
   layout_height='fill';--布局高度
   },
 };
+task(15000,function()--延迟15秒运行●
+  设置顶栏标题("")--设置顶栏标题空白
+end)--延迟结束●
 toolbar.parent.addView(loadlayout(gg))--结束♥♥♥]]
 
 
