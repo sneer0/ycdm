@@ -175,7 +175,7 @@ xx=
   end--结束❷❷❷❷❷
   
   tp3.onClick=function()--开始❸❸❸❸❸
-    huad.showPage(2)--图片序号●●●
+    huad.showPage(3)--图片序号●●●
     进入子页面("羊毛",{链接="http://ocjxs.yhzu.cn/index.php?r=/npoint9"})
     退出页面()
   end--结束❸❸❸❸❸
