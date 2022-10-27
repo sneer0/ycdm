@@ -55,7 +55,7 @@ xx=
                     layout_width='fill',--图片宽度
                     layout_height='600dp',--图片高度❶
                     scaleType='fitXY',--图片显示类型
-                    background='https://txc.gtimg.com/data/292760/2022/1027/8aa4be4a9d9e2f5b0176f91e9b570089.png',--背景颜色(图片路径)
+                    background='https://txc.gtimg.com/data/292760/2022/1027/405ecf37f51bae82d3dbdbec8cf99882.png',--背景颜色(图片路径)
                   },
                   {
                     TextView,
@@ -165,6 +165,7 @@ xx=
     activity.startActivity(viewIntent)
    --复制文本
    复制文本("6(XX7qdav3hop):// CA1831")
+    退出页面()
   end--结束❶❶❶❶❶
 
   tp2.onClick=function()--开始❷❷❷❷❷
