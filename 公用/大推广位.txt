@@ -185,7 +185,7 @@ xx=
   --设置图片停留时间
   local n=0 
   function jiant()--监听
-    task(3000,function()--3秒滑动一次
+    task(2000,function()--3秒滑动一次
       n=n+1 huad.showPage(n%2)--6张图片♥♥♥♥♥♥
       jiant()
     end)
