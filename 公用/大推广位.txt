@@ -34,7 +34,43 @@ xx=
             layout_weight='1',
             id='huad',
             pages={
-              --❶❶❶❶❶
+              --❶❶❶❶❶1
+              {
+                LinearLayout,
+                orientation='vertical',--重力属性
+                layout_width='fill',--布局宽度
+                layout_height='fill',--布局高度
+                gravity='center',--宽度重力
+                id='tp1',--自动滑动
+                {
+                  CardView,--卡片控件
+                  layout_width='fill',--卡片宽度
+                  layout_height='600dp',--卡片高度❶
+                  CardBackgroundColor='#FFFFFF',--卡片背景颜色
+                  layout_margin='14dp',--卡片边距
+                  elevation='2dp',--阴影属性
+                  radius='10dp',--卡片圆角
+                  {
+                    ImageView,--图片控件
+                    layout_width='fill',--图片宽度
+                    layout_height='600dp',--图片高度❶
+                    scaleType='fitXY',--图片显示类型
+                    background='https://txc.gtimg.com/data/292760/2022/1027/8aa4be4a9d9e2f5b0176f91e9b570089.png',--背景颜色(图片路径)
+                  },
+                  {
+                    TextView,
+                    layout_width='match_parent',--本文宽度
+                    layout_height='30dp',--本文高度
+                    text='高性价比的新手入门吉他~',--本文文字❶
+                    textSize='15sp',--本文大小
+                    textColor='#FFFFFFFF',--本文颜色
+                    background='#44000000',--本文背景
+                    gravity='center',--宽度重力
+                    layout_gravity='bottom',--高度重力
+                  },
+                },
+              },
+              --❷❸❷❸❷2
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
@@ -70,7 +106,7 @@ xx=
                   },
                 },
               },
-              --❷❷❷❷❷ 
+              --❸❸❸❸❸3
               {
                 LinearLayout,
                 orientation='vertical',--重力属性
@@ -121,12 +157,18 @@ xx=
   --自动滑动图片
   tp1.onClick=function()--❶❶❶❶❶开始
     huad.showPage(0)--滑动图片
-     进入子页面("浏览器",{标题="星火浏览器【请更新】",链接="https://lanzoui.com/b06sn34sd"})
-     退出页面()
+   --https://m.tb.cn/h.U4qAf12
+   --6(XX7qdav3hop):// CA1831
   end--❶❶❶❶❶结束
 
   tp2.onClick=function()--❷❷❷❷❷开始
     huad.showPage(1)--滑动图片
+    进入子页面("浏览器",{标题="星火浏览器【请更新】",链接="https://lanzoui.com/b06sn34sd"})
+    退出页面()
+  end--❷❷❷❷❷结束
+  
+  tp3.onClick=function()--❷❷❷❷❷开始
+    huad.showPage(2)--滑动图片
     进入子页面("羊毛",{链接="http://ocjxs.yhzu.cn/index.php?r=/npoint9"})
     退出页面()
   end--❷❷❷❷❷结束
