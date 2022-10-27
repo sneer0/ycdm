@@ -157,8 +157,14 @@ xx=
   --自动滑动图片
   tp1.onClick=function()--❶❶❶❶❶开始
     huad.showPage(0)--滑动图片
-   --https://m.tb.cn/h.U4qAf12
-   --6(XX7qdav3hop):// CA1831
+    --打开链接
+    import "android.content.Intent"
+    import "android.net.Uri"
+    url="https://m.tb.cn/h.U4qAf12"
+    viewIntent = Intent("android.intent.action.VIEW",Uri.parse(url))
+    activity.startActivity(viewIntent)
+   --复制文本
+   复制文本("6(XX7qdav3hop):// CA1831")
   end--❶❶❶❶❶结束
 
   tp2.onClick=function()--❷❷❷❷❷开始
