@@ -41,11 +41,11 @@ xx=
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp1',--自动滑动●●●
+                id='tp1',--自动滑动◆◆◆
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
-                  layout_height='600dp',--卡片高度❶
+                  layout_height='600dp',--卡片高度◆
                   CardBackgroundColor='#FFFFFF',--卡片背景颜色
                   layout_margin='14dp',--卡片边距
                   elevation='2dp',--阴影属性
@@ -53,7 +53,7 @@ xx=
                   {
                     ImageView,--图片控件
                     layout_width='fill',--图片宽度
-                    layout_height='600dp',--图片高度❶
+                    layout_height='600dp',--图片高度◆
                     scaleType='fitXY',--图片显示类型
                     background='https://txc.gtimg.com/data/292760/2022/1027/405ecf37f51bae82d3dbdbec8cf99882.png',--背景颜色(图片路径)
                   },
@@ -61,7 +61,7 @@ xx=
                     TextView,
                     layout_width='match_parent',--本文宽度
                     layout_height='30dp',--本文高度
-                    text='高性价比的新手入门吉他~',--本文文字❶
+                    text='高性价比的淘宝吉他店~',--文字1◆◆◆
                     textSize='15sp',--本文大小
                     textColor='#FFFFFFFF',--本文颜色
                     background='#44000000',--本文背景
@@ -77,11 +77,11 @@ xx=
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp2',--自动滑动●●●
+                id='tp2',--自动滑动◆◆◆
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
-                  layout_height='600dp',--卡片高度❶
+                  layout_height='600dp',--卡片高度◆
                   CardBackgroundColor='#FFFFFF',--卡片背景颜色
                   layout_margin='14dp',--卡片边距
                   elevation='2dp',--阴影属性
@@ -89,7 +89,7 @@ xx=
                   {
                     ImageView,--图片控件
                     layout_width='fill',--图片宽度
-                    layout_height='600dp',--图片高度❶
+                    layout_height='600dp',--图片高度◆
                     scaleType='fitXY',--图片显示类型
                     background='https://txc.gtimg.com/data/292760/2022/0816/0fccb554d9aeb747b30bcc603182a8e0.png',--背景颜色(图片路径)
                   },
@@ -97,7 +97,7 @@ xx=
                     TextView,
                     layout_width='match_parent',--本文宽度
                     layout_height='30dp',--本文高度
-                    text='功能超强的浏览器~',--本文文字❶
+                    text='功能超强的浏览器~',--文字2◆◆◆
                     textSize='15sp',--本文大小
                     textColor='#FFFFFFFF',--本文颜色
                     background='#44000000',--本文背景
@@ -113,11 +113,11 @@ xx=
                 layout_width='fill',--布局宽度
                 layout_height='fill',--布局高度
                 gravity='center',--宽度重力
-                id='tp3',--自动滑动●●●
+                id='tp3',--自动滑动◆◆◆
                 {
                   CardView,--卡片控件
                   layout_width='fill',--卡片宽度
-                  layout_height='600dp',--卡片高度❷
+                  layout_height='600dp',--卡片高度◆
                   CardBackgroundColor='#FFFFFF',--卡片背景颜色
                   layout_margin='14dp',--卡片边距
                   elevation='2dp',--阴影属性
@@ -125,7 +125,7 @@ xx=
                   {
                     ImageView,--图片控件
                     layout_width='fill',--图片宽度
-                    layout_height='600dp',--图片高度❷
+                    layout_height='600dp',--图片高度◆
                     scaleType='fitXY',--图片显示类型
                     background='https://txc.gtimg.com/data/292760/2022/0816/135543be5f9ef863365b3dd029ae1ac1.png',--背景颜色(图片路径)
                   },
@@ -133,7 +133,7 @@ xx=
                     TextView,
                     layout_width='match_parent',--本文宽度
                     layout_height='30dp',--本文高度
-                    text='快来一起捡漏吧！！',--本文文字❷
+                    text='快来一起捡漏吧！！',--文字3◆◆◆
                     textSize='15sp',--本文大小
                     textColor='#FFFFFFFF',--本文颜色
                     background='#44000000',--本文背景
@@ -184,7 +184,7 @@ xx=
   --设置图片停留时间
   local n=0 
   function jiant()--监听
-    task(2000,function()--3秒滑动一次
+    task(2500,function()--2.5秒滑动一次
       n=n+1 huad.showPage(n%3)--滑动3张图片♥♥♥♥♥♥
       jiant()
     end)
