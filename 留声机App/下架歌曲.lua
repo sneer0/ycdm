@@ -642,7 +642,7 @@ end
 
 
 ss.onClick=function()--点击事件
-弹出消息＂功能维护中...＂
+  弹出消息("功能维护中...")
   --[[items={}--第三方搜索开始♦♦♦♦
   table.insert(items,"第三方搜索❶")
   table.insert(items,"第三方搜索❷")
