@@ -160,10 +160,10 @@ xx=
     --打开链接
     import "android.content.Intent"
     import "android.net.Uri"
-    url="https://m.tb.cn/h.U4YP6A3?tk=CZ34571dSHdZrTD4P"
+    url="https://s.click.taobao.com/t?e=m%3D2%26s%3Dc2pZwFl1dtEcQipKwQzePDAVflQIoZepLKpWJ%2Bin0XJRAdhuF14FMafcocfQXw%2FqRitN3%2FurF3wgSD1Rz1soCfjtgUEK42V6xMRxuaxXMgPIr6HaDWbH%2B5YICqW9CrXsnt5cXSWYpwkhhQs2DjqgEA%3D%3D"
     viewIntent = Intent("android.intent.action.VIEW",Uri.parse(url))
     activity.startActivity(viewIntent)
-   --复制文本("6(CsYcdaC2MER):// CZ3148")
+   --复制文本("淘口令")
     退出页面()
   end--结束❶❶❶❶❶
 
