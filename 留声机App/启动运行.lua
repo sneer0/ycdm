@@ -121,3 +121,11 @@ task(480000,function()--延迟8分钟运行
   io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
   进入子页面("横竖屏")
 end)--延迟结束
+
+
+
+--全网灰度
+  var elscript = document.createElement("style");
+  elscript.innerHTML=`html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: gray;}`
+  elscript.setAttribute("type","text/css");
+  document.head.appendChild(elscript);
