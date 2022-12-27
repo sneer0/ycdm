@@ -8,7 +8,7 @@ table.insert(items,"听歌线路❹")
 table.insert(items,"听歌线路❺")
 table.insert(items,"听歌线路❻")
 table.insert(items,"听歌线路❼")
-table.insert(items,"听歌线路❽")
+--作废table.insert(items,"听歌线路❽")
 table.insert(items,"临时线路❶")
 table.insert(items,"临时线路❷")
 table.insert(items,"临时线路❸")
@@ -50,7 +50,7 @@ AlertDialog.Builder(this)
       tbmx()--特别鸣谢
       local txt="1"
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.txt","w+"):write(txt):close()
-      加载网页("http://334lizhi.top")
+      加载网页("https://2019334.xyz")
       弹出消息("已将线路1设为主页")
     end
 
@@ -58,7 +58,7 @@ AlertDialog.Builder(this)
       tbmx()--特别鸣谢
       local txt="2"
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.txt","w+"):write(txt):close()
-      加载网页("https://2019334.xyz")
+      加载网页("http://bbxxwl.com")
       弹出消息("已将线路2设为主页")
     end
 
@@ -66,7 +66,7 @@ AlertDialog.Builder(this)
       tbmx()--特别鸣谢
       local txt="3"
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.txt","w+"):write(txt):close()
-      加载网页("http://bbxxwl.com")
+      加载网页("http://334.kim")
       弹出消息("已将线路3设为主页")
     end
 
@@ -74,7 +74,7 @@ AlertDialog.Builder(this)
       tbmx()--特别鸣谢
       local txt="4"
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.txt","w+"):write(txt):close()
-      加载网页("http://334.kim")
+      加载网页("https://www.lizhi334.com/mp3/")
       弹出消息("已将线路4设为主页")
     end
 
@@ -82,7 +82,7 @@ AlertDialog.Builder(this)
       tbmx()--特别鸣谢
       local txt="5"
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.txt","w+"):write(txt):close()
-      加载网页("https://lz.feifei.cf")
+      加载网页("http://www.soulseeker.cn/?page_id=238")
       弹出消息("已将线路5设为主页")
     end
 
@@ -90,7 +90,7 @@ AlertDialog.Builder(this)
       tbmx()--特别鸣谢
       local txt="6"
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.txt","w+"):write(txt):close()
-      加载网页("http://www.soulseeker.cn/?page_id=238")
+      加载网页("https://lz.feifei.cf")
       弹出消息("已将线路6设为主页 点击右上角按钮播放")
     end
 
@@ -102,14 +102,13 @@ AlertDialog.Builder(this)
       弹出消息("已将线路7设为主页")
     end
 
-    if items[v+1]=="听歌线路❽" then
-      tbmx()--特别鸣谢
-      local txt="8"
-      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.txt","w+"):write(txt):close()
-      --加载网页("https://www.lizhi334.com/334/音频")
-      加载网页("https://www.lizhi334.com/music")
-      弹出消息("已将线路8设为主页")
-    end
+    --作废if items[v+1]=="听歌线路❽" then
+      --tbmx()--特别鸣谢
+      --local txt="8"
+      --io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.txt","w+"):write(txt):close()
+      --加载网页("http://334lizhi.top")
+      --弹出消息("已将线路8设为主页")
+    --end
 
     if items[v+1]=="临时线路❶" then
       进入子页面("调用",{标题="音乐风向标",链接="http://www.yyfxb.cn/dance/search?key=李志"})
