@@ -45,22 +45,22 @@ for pageid in io.lines("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.
     --弹出消息("智能线路连接中...")
     --智能线路结束♥♥♥
   elseif pageid =="1" then 
-    加载网页("http://334lizhi.top")
-  elseif pageid =="2" then 
     加载网页("https://2019334.xyz")
-  elseif pageid =="3" then 
+  elseif pageid =="2" then 
     加载网页("http://bbxxwl.com")
-  elseif pageid =="4" then 
+  elseif pageid =="3" then 
     加载网页("http://334.kim")
-    elseif pageid =="5" then 
-    加载网页("https://lz.feifei.cf")
-    elseif pageid =="6" then 
+  elseif pageid =="4" then 
+    加载网页("https://www.lizhi334.com/mp3/")
+  elseif pageid =="5" then 
     加载网页("http://www.soulseeker.cn/?page_id=238")
     弹出消息("点击右上角按钮播放")
-    elseif pageid =="7" then 
+  elseif pageid =="6" then 
+    加载网页("https://lz.feifei.cf")
+  elseif pageid =="7" then 
     加载网页("https://go.txca.ml/0:/lizhi/")
-    elseif pageid =="8" then 
-    加载网页("https://www.lizhi334.com/music")
+  --elseif pageid =="8" then 
+    --加载网页("http://334lizhi.top")
   end
 end--♥♥♥切换主页结束
 
