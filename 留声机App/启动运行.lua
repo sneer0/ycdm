@@ -59,7 +59,7 @@ for pageid in io.lines("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhzy.
     加载网页("https://lz.feifei.cf")
   elseif pageid =="7" then 
     加载网页("https://go.txca.ml/0:/lizhi/")
-  --elseif pageid =="8" then 
+  --作废elseif pageid =="8" then 
     --加载网页("http://334lizhi.top")
   end
 end--♥♥♥切换主页结束
