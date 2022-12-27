@@ -113,6 +113,11 @@ adpd={
       text="李志视频❷",--❹❹❹
     },
   },
+    {
+    text={
+      text="李志视频❸",--❹❹❹
+    },
+  },
   {
     text={
       text="摇滚壁纸★",--❺❺❺
@@ -158,39 +163,45 @@ adapter=LuaAdapter(this,adpd,items)
 list.Adapter=adapter
 list.onItemClick=function(adp,view,pos,id)
   ({
-    function()--❶❶❶
+    function()--壁纸111
       local txt="1xfan"--悬浮按钮♥♥♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志壁纸1",链接="https://m.baidu.com/sf/vsearch?pd=image_content&from=2001a&atn=page&fr=tab&tn=vsearch&ss=110&sa=tb&rsv_sug4=3585&inputT=1886&word=李志写真"})
-    end,--结束❶❶❶
+    end,--结束111
 
-    function()--❷❷❷
+    function()--壁纸222
       local txt="1xfan"--悬浮按钮♥♥♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志壁纸2",链接="https://cn.bing.com/images/search?q=李志&FORM=HDRSC2"})
-    end,--结束❷❷❷
+    end,--结束222
 
-    function()--❸❸❸
+    function()--视频111
       local txt="1xfan"--悬浮按钮♥♥♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
       进入子页面("横竖屏",{标题="李志视频1",链接="http://live.334.kim"}) 
         --https://www.perry.ren/tag/李志
-    end,--结束❸❸❸
+    end,--结束111
 
-    function()--❹❹❹
+    function()--视频222
       local txt="1xfan"--悬浮按钮♥♥♥
       io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
-      进入子页面("横竖屏",{标题="李志视频2",链接="https://m.baidu.com/sf/vsearch?pd=video&word=李志&tn=vsearch&sa=vs_tab&lid=11830035256991840593&ms=1&from=1022560v&atn=index"}) 
-    end,--结束❹❹❹
+      进入子页面("横竖屏",{标题="李志视频2",链接="https://www.lizhi334.com/video"}) 
+    end,--结束222
 
-    function()--❺❺❺
+    function()--视频333
+      local txt="1xfan"--悬浮按钮♥♥♥
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
+      进入子页面("横竖屏",{标题="李志视频3",链接="https://m.baidu.com/sf/vsearch?pd=video&word=李志&tn=vsearch&sa=vs_tab&lid=11830035256991840593&ms=1&from=1022560v&atn=index"}) 
+    end,--结束333
+
+    function()--摇滚111
       进入子页面("调用",{标题="摇滚壁纸",链接="https://www.yuque.com/njlz/bz"})
       弹出消息("正在加载中...")
-    end,--结束❺❺❺
+    end,--结束111
     
-    function()--❻❻❻
+    function()--卡片111
       进入子页面("调用",{标题="歌词卡片（刷新换词）",链接="https://neneko.cn/NanjingLizhiBot/PLUS"})
-    end,--结束❻❻❻
+    end,--结束111
 
   })[id]()
 end
