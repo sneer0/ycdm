@@ -15,7 +15,7 @@ table.insert(items,"临时线路❸")
 table.insert(items,"临时线路❹")
 table.insert(items,"临时线路❺")
 AlertDialog.Builder(this)
-.setTitle("切换云端线路")--标题♥
+.setTitle("云端听歌线路")--标题♥
 .setItems(items,{onClick=function(l,v) 
 
     if items[v+1]=="投稿新线路" then
