@@ -7,11 +7,11 @@ table.insert(items,"听歌线路❹")
 table.insert(items,"听歌线路❺")
 table.insert(items,"听歌线路❻")
 table.insert(items,"听歌线路❼")
+table.insert(items,"听歌线路❽")
 table.insert(items,"临时线路❶")
 table.insert(items,"临时线路❷")
 table.insert(items,"临时线路❸")
 table.insert(items,"临时线路❹")
-table.insert(items,"临时线路❺")
 
 function tbmx()--鸣谢开始♥
  对话框()
@@ -115,9 +115,6 @@ AlertDialog.Builder(this)
     end
     if items[v+1]=="临时线路❹" then
       进入子页面("调用",{标题="Audiomack",链接="https://audiomack.com/search?q=李志&show=playlists&sort=popular"})
-    end
-    if items[v+1]=="临时线路❺" then
-      进入子页面("调用",{标题="私人云盘",链接="https://music.njlizhi.gq"}) 
     end
 
   end})
