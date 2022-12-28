@@ -1,5 +1,4 @@
 items={}--【云端歌源】
-table.insert(items,"投稿新线路")
 table.insert(items,"智能线路●")
 table.insert(items,"听歌线路❶")
 table.insert(items,"听歌线路❷")
@@ -13,9 +12,6 @@ table.insert(items,"临时线路❷")
 table.insert(items,"临时线路❸")
 table.insert(items,"临时线路❹")
 table.insert(items,"临时线路❺")
-AlertDialog.Builder(this)
-.setTitle("云端听歌线路")--标题♥
-.setItems(items,{onClick=function(l,v) 
 
 function tbmx()--鸣谢开始♥
  对话框()
@@ -29,9 +25,9 @@ function tbmx()--鸣谢开始♥
  .显示()
  end--鸣谢结束♥
 
-    if items[v+1]=="投稿新线路" then
-      进入子页面("调用",{标题="投稿新线路",链接="https://support.qq.com/embed/phone/374133/faqs/127112"})
-    end
+AlertDialog.Builder(this)
+.setTitle("云端听歌线路")--标题♥
+.setItems(items,{onClick=function(l,v) 
 
     if items[v+1]=="智能线路●" then
       tbmx()--鸣谢
