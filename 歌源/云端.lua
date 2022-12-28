@@ -95,6 +95,14 @@ AlertDialog.Builder(this)
       弹出消息("已将线路7设为主页")
     end
 
+    if items[v+1]=="听歌线路❽" then
+      tbmx()--鸣谢
+      local txt="y8"--●
+      io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/qhgy.txt","w+"):write(txt):close()
+      加载网页("https://music.njlizhi.gq")
+      弹出消息("已将线路8设为主页")
+    end
+
 --临时线路●●●           
     if items[v+1]=="临时线路❶" then
       进入子页面("调用",{标题="音乐风向标",链接="http://www.yyfxb.cn/dance/search?key=李志"})
