@@ -116,8 +116,9 @@ toolbar.parent.addView(loadlayout(gg))--结束♥♥♥]]
 
 
 
+--[[
 task(480000,function()--延迟8分钟运行
   local txt="1sfyz"--身份验证♥
   io.open("/storage/emulated/0/Android/data/com.sneer.zgsjhhm/hsp.txt","w+"):write(txt):close()
   进入子页面("横竖屏")
-end)--延迟结束
+end)--延迟结束]]
