@@ -37,7 +37,7 @@ jdpuk={
       --subTitle="32552732",
       returnButtonEnabled=true,
       elevation="-480dp",--未找到改变效果
-      --[[搜索框♦♦♦
+      --搜索框♦♦♦
       {
         ImageView;--图片控件
         src='https://sneer0.github.io/ycdm/公用/ss.png';--图片路径
@@ -49,7 +49,7 @@ jdpuk={
         layout_marginRight='5%w';--右距
         --style="?android:attr/buttonBarButtonStyle";--按钮特效
         id="ss",
-      };--]]
+      };--搜索框♦♦♦
     },
   },
   {
