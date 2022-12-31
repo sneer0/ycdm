@@ -640,10 +640,10 @@ list.onItemClick=function(adp,view,pos,id)
   })[id]()
 end
 
---[[
+--[[搜索框♦♦♦
 ss.onClick=function()--点击事件
   弹出消息("功能维护中...")
-  items={}--搜索开始♦♦♦♦
+  items={}--多选框开始♦♦♦
   table.insert(items,"第三方搜索❶")
   table.insert(items,"第三方搜索❷")
   table.insert(items,"第三方搜索❸")
@@ -663,6 +663,6 @@ ss.onClick=function()--点击事件
         弹出消息("此服务由第三方网站提供，该网站有时会自动跳转到垃圾广告页面，若遇到这种情况，点击返回即可。请勿相信广告，否则一切损失后果自负！")
       end
     end})
-  .show()--搜索结束♦♦♦♦
+  .show()--多选框结束♦♦♦
 end
 --]]
