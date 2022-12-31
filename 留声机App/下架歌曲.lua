@@ -35,7 +35,7 @@ jdpuk={
       titleText="下架歌曲",--♥♥♥
       returnButtonEnabled=true,
       elevation="-480dp",--未找到改变效果
-      {
+      --[[{
         ImageView;--图片控件
         src='https://sneer0.github.io/ycdm/公用/ss.png';--图片路径
         layout_width='25dp';--宽度
@@ -46,7 +46,7 @@ jdpuk={
         layout_marginRight='5%w';--右距
         --style="?android:attr/buttonBarButtonStyle";--按钮特效
         id="ss",
-      };
+      };--]]
     },
   },
   {
