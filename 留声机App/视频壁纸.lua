@@ -37,6 +37,19 @@ jdpuk={
       --subTitle="32552732",
       returnButtonEnabled=true,
       elevation="-480dp",--未找到改变效果
+      --[[搜索框♦♦♦
+      {
+        ImageView;--图片控件
+        src='https://sneer0.github.io/ycdm/公用/ss.png';--图片路径
+        layout_width='25dp';--宽度
+        layout_height='25dp';--高度
+        scaleType='fitXY';--图片显示类型
+        layout_gravity='right|center';--重力
+        ColorFilter='0xffffffff';--图片着色
+        layout_marginRight='5%w';--右距
+        --style="?android:attr/buttonBarButtonStyle";--按钮特效
+        id="ss",
+      };--]]
     },
   },
   {
@@ -205,3 +218,9 @@ list.onItemClick=function(adp,view,pos,id)
 
   })[id]()
 end
+
+--[[搜索框♦♦♦
+ss.onClick=function()--点击事件
+  弹出消息("功能维护中...")
+end
+--]]
