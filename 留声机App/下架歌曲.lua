@@ -640,7 +640,6 @@ list.onItemClick=function(adp,view,pos,id)
   })[id]()
 end
 
---[[
 ss.onClick=function()--点击事件
   弹出消息("功能维护中...")
   --[[items={}--搜索开始♦♦♦♦
@@ -665,4 +664,3 @@ ss.onClick=function()--点击事件
     end})
   .show()--搜索结束♦♦♦♦]]
 end
---]]
