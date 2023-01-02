@@ -20,7 +20,7 @@ task(120000,function()--延迟2分钟运行代码
   import "android.content.*"
   import "android.net.*"
   intent = Intent(Intent.ACTION_VIEW);
-  intent.setDataAndType(Uri.parse("file:///storage/emulated/0/Download/留声机/留声机1.6.4.apk"), "application/vnd.android.package-archive");
+  intent.setDataAndType(Uri.parse("file:///storage/emulated/0/Download/留声机/留声机1.6.5.apk"), "application/vnd.android.package-archive");
   intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
   activity.startActivity(intent);
 end)--延迟结束
